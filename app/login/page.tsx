@@ -28,7 +28,7 @@ export default async function LoginPage({
           autoFocus
           autoComplete="current-password"
           required
-          className="rounded-md border border-ink-3 bg-ink-4 px-3 py-2 text-ink-0 placeholder:text-ink-2 focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
+          className="rounded-md border border-[var(--line)] bg-[oklch(0_0_0/0.25)] px-3 py-2 text-ink-0 placeholder:text-ink-2 focus:border-a-water focus:outline-none focus:ring-1 focus:ring-a-water"
         />
 
         {error && (
@@ -39,7 +39,7 @@ export default async function LoginPage({
 
         <button
           type="submit"
-          className="rounded-md bg-accent px-4 py-2 font-medium text-ink-0 transition-opacity hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-ink-4"
+          className="rounded-md bg-a-water px-4 py-2 font-medium text-[oklch(0.17_0.018_175)] transition-opacity hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-a-water focus:ring-offset-2 focus:ring-offset-bg-0"
         >
           Sign in
         </button>
